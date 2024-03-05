@@ -1,138 +1,289 @@
-@media only screen and (max-width: 1399px){
-    .header .navbar-light .nav-item .nav-link { font-size: 0.8rem;}
-    .content_ab-relative .bnr__Adm_dv { padding-left: 1rem;}
-    .content_ab-relative .button__flex strong { padding: 1.2rem 1.5rem;}
-    .admission-section .sele__item:after { width: auto;}
-    .bc-img01 {     height: 87vh; }
+@media only screen and (max-width: 1399px) {
+    .header .navbar-light .nav-item .nav-link {
+        font-size: 0.8rem;
     }
-    
-    @media only screen and (max-width: 1024px){
-    #hero.container-fluid, #hero.container-fluid .row { padding-left: 0px; padding-right: 0px; margin-right: 0px; margin-left: 0px; }
-    
+
+    .content_ab-relative .bnr__Adm_dv {
+        padding-left: 1rem;
     }
-    
-    @media only screen and (max-width: 980px){
-    .desktop, .patten8 { display: none;}
-    .mobile { display: block;}
-    .dsu-intro { position: relative; width: 100%; margin: 2rem 0; }
-    .dsu-form { margin-left: auto; margin-right: auto;}
-    .dsu-addmission { margin-top: 10px; padding-top: 0px; }
-    .bc-img01 {  background-attachment: initial; height: auto; padding-bottom: 2rem;}
-    #back-top{ display: none !important; }
-    .dsu-addmission { text-align: center; }
-    .applyBox { margin-top: 0; width: 100%;}
+
+    .content_ab-relative .button__flex strong {
+        padding: 1.2rem 1.5rem;
+    }
+
+    .admission-section .sele__item:after {
+        width: auto;
+    }
+
+    .bc-img01 {
+        height: 87vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #hero.container-fluid,
+    #hero.container-fluid .row {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+    .desktop,
+    .patten8 {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .dsu-intro {
+        position: relative;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .dsu-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dsu-addmission {
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+
+    .bc-img01 {
+        background-attachment: initial;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    #back-top {
+        display: none !important;
+    }
+
+    .dsu-addmission {
+        text-align: center;
+    }
+
+    .applyBox {
+        margin-top: 0;
+        width: 100%;
+    }
+
     .hero-section {
         clip-path: none;
     }
+
     .courses__fluid {
         padding: 2.5rem 0;
     }
+
     .pe-5 {
-        padding-right: 0rem!important;
+        padding-right: 0rem !important;
     }
-    
+
     .header .navbar-light .nav-item .nav-link {
         padding: 1rem 0;
         border-bottom: 1px solid #2a2a2a;
         border-right: 0;
     }
-    .business-section .business__silde { margin-right: 0; }
+
+    .business-section .business__silde {
+        margin-right: 0;
     }
-    
-    @media only screen and (max-width: 736px){
-    .container, .applyBox { max-width: 100%;}
-    .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv { width: 100%; }
-    .mx-5 { margin-left: 0 !important; margin-right: 0 !important; }
-    #eligi-slider.owl-theme .owl-nav [class*=owl-], #testimonials-slider.owl-theme .owl-nav [class*=owl-] { position: relative; }
-    #eligi-slider.owl-theme .owl-nav .owl-next, #testimonials-slider.owl-theme .owl-nav .owl-next { right: 0;}
-    #eligi-slider.owl-theme .owl-nav .owl-prev, #testimonials-slider.owl-theme .owl-nav .owl-prev { left: 0; }
-    
-    .leader-section { background-color: #e7f8fd; }
+}
+
+@media only screen and (max-width: 736px) {
+
+    .container,
+    .applyBox {
+        max-width: 100%;
+    }
+
+    .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv {
+        width: 100%;
+    }
+
+    .mx-5 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #eligi-slider.owl-theme .owl-nav [class*=owl-],
+    #testimonials-slider.owl-theme .owl-nav [class*=owl-] {
+        position: relative;
+    }
+
+    #eligi-slider.owl-theme .owl-nav .owl-next,
+    #testimonials-slider.owl-theme .owl-nav .owl-next {
+        right: 0;
+    }
+
+    #eligi-slider.owl-theme .owl-nav .owl-prev,
+    #testimonials-slider.owl-theme .owl-nav .owl-prev {
+        left: 0;
+    }
+
+    .leader-section {
+        background-color: #e7f8fd;
+    }
+
     .leader-section .leader__content_ab {
-        position: relative; text-align: center;
+        position: relative;
+        text-align: center;
         padding: 2rem 0;
         top: 0;
         left: 0;
     }
-    
+
     .bouncebtn {
         animation: none;
         -webkit-animation: none;
         -moz-animation: bounce 2s infinite;
         -o-animation: bounce 2s infinite;
     }
-    .testimonials-section .testimonials__item { padding: 1rem; }
-    .content_bnr-flex h1 { font-size: 2rem; }
-    .alumni-content h5 { width: 48%; }
-    .w-75 { width: 100% !important; }
-    .resp-tabs__content { padding: 1rem 0; }
-    .resp-tabs__content h2 br { display: none; }
-    .image-box .image { margin: 1rem 0; }
-    .recognised-section { padding: 3rem 0; }
+
+    .testimonials-section .testimonials__item {
+        padding: 1rem;
     }
-    
-    @media only screen and (max-width: 667px){
+
+    .content_bnr-flex h1 {
+        font-size: 2rem;
+    }
+
+    .alumni-content h5 {
+        width: 48%;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .resp-tabs__content {
+        padding: 1rem 0;
+    }
+
+    .resp-tabs__content h2 br {
+        display: none;
+    }
+
+    .image-box .image {
+        margin: 1rem 0;
+    }
+
+    .recognised-section {
+        padding: 3rem 0;
+    }
+}
+
+@media only screen and (max-width: 667px) {
     .sideNavi {
         position: fixed;
         width: 100%;
         bottom: 0px;
-        top: auto; right: auto;
+        top: auto;
+        right: auto;
         left: 0;
         z-index: 5;
-            -moz-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-    .about__listing { padding: 1.5rem; text-align: center; left: 0; }
-    .sideNavi a { display: block; border-radius: 0; text-align: center; padding: 12px 2px; }
-    .footer { height: 100px; font-size: 12px; }
-    .sideNavi .sideNavi-flex { display: flex;}
-    .sideNavi-item { width: 100%;}
-    .sideNavi a { color: #FFF; border: 0; }
+
+    .about__listing {
+        padding: 1.5rem;
+        text-align: center;
+        left: 0;
     }
-    
-    @media only screen and (max-width: 568px){
-    .dsu-form { width: 100%; border: 1px solid #000; }
-    
+
+    .sideNavi a {
+        display: block;
+        border-radius: 0;
+        text-align: center;
+        padding: 12px 2px;
     }
-    
-    @media only screen and (max-width: 480px){
-    h1, h2, h3, h3, h4, h5, h6 { font-size: 24px; }
-    p, ul.listing li, .about__listing ul li { font-size: 14px; line-height: 20px; }
+
+    .footer {
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .sideNavi .sideNavi-flex {
+        display: flex;
+    }
+
+    .sideNavi-item {
+        width: 100%;
+    }
+
+    .sideNavi a {
+        color: #FFF;
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .dsu-form {
+        width: 100%;
+        border: 1px solid #000;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1,
+    h2,
+    h3,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 24px;
+    }
+
+    p,
+    ul.listing li,
+    .about__listing ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .fsize28 {
         font-size: 22px;
     }
+
     .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv h3 {
         font-size: 3em;
     }
-    .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p { font-size: 16px; }
-    .thankyou-sec .hero-thankyou .bc-img01 { height: 415px; }
+
+    .thankyou-sec .hero-thankyou .bc-img01 .thankyou__dv p {
+        font-size: 16px;
+    }
+
+    .thankyou-sec .hero-thankyou .bc-img01 {
+        height: 415px;
+    }
+
     .fs-5 {
-        font-size: 1rem!important;
+        font-size: 1rem !important;
     }
-    .header .navbar-expand-lg .navbar-brand { width: 200px; }
-    .programme__section .programme-item { height: auto; }
+
+    .header .navbar-expand-lg .navbar-brand {
+        width: 200px;
     }
-    
-    @media only screen and (max-width: 414px){
-    
-    
-    
+
+    .programme__section .programme-item {
+        height: auto;
     }
-    
-    @media only screen and (max-width: 384px){
-    
-    
-    }
-    
-    
-    @media only screen and (max-width: 360px){
-    
-    }
-    
-    @media only screen and (max-width: 320px){
-    
-    }
-    
+}
