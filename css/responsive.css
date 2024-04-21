@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1399px) {
     .header .navbar-light .nav-item .nav-link {
         font-size: 0.8rem;
+        text-align: center;
     }
 
     .content_ab-relative .bnr__Adm_dv {
@@ -62,7 +63,6 @@
     .bc-img01 {
         background-attachment: initial;
         height: auto;
-        padding-bottom: 2rem;
     }
 
     #back-top {
@@ -88,12 +88,6 @@
 
     .pe-5 {
         padding-right: 0rem !important;
-    }
-
-    .header .navbar-light .nav-item .nav-link {
-        padding: 1rem 0;
-        border-bottom: 1px solid #2a2a2a;
-        border-right: 0;
     }
 
     .business-section .business__silde {
@@ -179,9 +173,13 @@
         margin: 1rem 0;
     }
 
-    .recognised-section {
-        padding: 3rem 0;
+    .navOpenBtn{
+        border: none !important;
+        color: unset !important;
+        outline: none !important;
+        box-shadow: none !important;
     }
+
 }
 
 @media only screen and (max-width: 667px) {
@@ -211,11 +209,6 @@
         border-radius: 0;
         text-align: center;
         padding: 12px 2px;
-    }
-
-    .footer {
-        height: 100px;
-        font-size: 12px;
     }
 
     .sideNavi .sideNavi-flex {

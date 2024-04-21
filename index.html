@@ -6,19 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Shanti Niketan School</title>
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   <!-- custom CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
-  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="css/carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/pro.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="css/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
-  <script src="js/jquery.min.js"></script>
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -27,52 +24,176 @@
   <header id="header" class="header" data-scroll-index='0'>
     <div class="header-absolute zIndex2 w-100">
       <div class="header_top">
-        <div class="d-flex justify-content-end align-items-center py-2 container gap-5">
-          <a href="">
-            <button class="header_btn">online admissions</button>
-          </a>
-          <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a target="_blank" href="#"><i class="fa-brands fa-twitter-square"></i></a>
-        </div>
-      </div>
-      <div class="d-flex justify-content-between align-items-center py-2 container">
-        <a>
-          <img class="img-fluid" title="The Shanti Niketan School" src="images/logo.png"
-            alt="The Shanti Niketan School" />
-        </a>
-        <div class="text-end logo__right desktop">
-          <img class="img-fluid" src="images/cambridge.png" alt="" />
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <div class="container">
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+        <div class="d-flex justify-content-between align-items-center py-2 container gap-4">
+          <button class="header_btn d-md-none d-block openMenu">
+            <img src="images/menu-icon.svg" alt="menu">
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto">
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger" data-scroll-nav='0'>Why TSNI?</a>
+          <nav class="navbar navbar-light p-0 d-md-block d-none">
+            <div class="d-flex justify-content-center align-items-center container-fluid">
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='0'>Why TSNI?</a>
               </div>
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger"
-                  data-scroll-nav='1'>Infrastructure</a></div>
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger" data-scroll-nav='2'>Academics</a>
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='1'>Infrastructure</a></div>
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='2'>Academics</a>
               </div>
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger" data-scroll-nav='3'>Memories</a>
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='3'>Memories</a>
               </div>
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger" data-scroll-nav='4'>Beyond
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='4'>Beyond
                   Acadmics</a></div>
-              <div class="nav-item"><a href="#" class="nav-link js-scroll-trigger" data-scroll-nav='5'>Contact Us</a>
+              <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='5'>Contact Us</a>
               </div>
             </div>
+          </nav>
+          <div class="d-flex justify-content-between justify-content-md-end align-items-center gap-4">
+            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-twitter-square"></i></a>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
   </header>
 
+  <div>
+    <div class="floatForm">
+      <div class="text-end closeFormDiv">
+        <img src="images/close-icon.svg" alt="close" class="closeFloatForm">
+      </div>
+      <div id="applyBox">
+        <div class="applyBox">
+          <div class="dsu-form rounded">
+            <div class="frmBg">
+              <span class="fs-5 font-weight-700 text-white px-5 d-inline-block">Enquire Now</span>
+            </div>
+            <div class="contact_fild">
+              <form id="formID" name="contact-form" method="post"
+                action="https://uniproeducation.com/lp/mss-admission-2024-save.php">
+                <div class="formIDfid">
+                  <div class="contact-fild-box">
+                    <div class="form-group">
+                      <input name="child" class="form-control validate[required, custom[name]]"
+                        placeholder="Child Name*" data-errormessage-value-missing="*Child Name is required!" type="text"
+                        required>
+                    </div>
+                  </div>
+                  <div class="contact-fild-box">
+                    <div class="form-group">
+                      <input name="name" class="form-control validate[required, custom[name]]"
+                        placeholder="Parent Name*" data-errormessage-value-missing="*Parent Name is required!"
+                        type="text" required>
+                    </div>
+                  </div>
+                  <div class="contact-fild-box">
+                    <div class="form-group">
+                      <input name="email" class="form-control validate[required, custom[email]]" placeholder="Email*"
+                        maxlength="30" data-errormessage-value-missing="* Email is required!" type="email" required>
+                    </div>
+                  </div>
+                  <div class="contact-fild-box">
+                    <div class="form-group">
+                      <input class="form-control" id="phone" type="tel" maxlength="10" placeholder="Mobile*"
+                        name="phone" pattern="[6-9]{1}[0-9]{9}"
+                        title="Phone number with 6-9 and remaing 9 digit with 0-9" required>
+                    </div>
+                  </div>
+                  <div class="contact-fild-box">
+                    <div class="form-group">
+                      <select class="form-select validate[required]"
+                        data-errormessage-value-missing="* Course is required!" name="class" required>
+                        <option value="" selected="selected">Select Class* </option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="LKG">LKG</option>
+                        <option value="UKG">UKG</option>
+                        <option value="Class I">Class I</option>
+                        <option value="Class II">Class II</option>
+                        <option value="Class III">Class III</option>
+                        <option value="Class IV">Class IV</option>
+                        <option value="Class V">Class V</option>
+                        <option value="Class VI">Class VI</option>
+                        <option value="Class VII">Class VII</option>
+                        <option value="Class VIII">Class VIII</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="contact-fild-box mt-4">
+                    <div class="form-group">
+                      <input type="hidden" id="referrerid" name="referrer_name" value="">
+                      <input type="hidden" id="keyword" name="keyword" value="">
+                      <input type="hidden" id="network" name="network" value="">
+                      <input type="hidden" id="campaign_url" name="campaign_url" value="">
+                      <input type="hidden" id="campaign_name" name="campaign_name" value="">
+                      <input id="utm_medium" name="utm_medium" type="hidden" value="">
+                      <input type="hidden" id="sourceId" name="source" value="">
+                      <input type="hidden" name="orderid" value="855">
+                      <input type="hidden" name="sitename" value="MSSAdmission2024">
+                      <button id="btnSubmit" type="submit" class="btn btn_submit mx-auto d-block">Submit</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="backTop">
+      <svg height="1.2em" class="svgIcon" viewBox="0 0 512 512">
+        <path
+          d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z">
+        </path>
+      </svg>
+    </button>
+    <div class="askFormMain">
+      <form class="askForm">
+        <p class="askFormtitle">Have a doubt? </p>
+        <input required="" placeholder="Enter your name" type="text" class="askForminput">
+        <input required="" placeholder="Enter your email" type="email" class="askForminput">
+        <textarea name="" id="" cols="10" rows="6" class="askForminput" placeholder="Enter your doubt"></textarea>
+        <button class="askFormsubmit">Submit</button>
+      </form>
+      <button class="msgIcon">
+        <img width="24" height="24" src="images/msg-icon.png" />
+      </button>
+    </div>
+    <div class="sideBar">
+      Enquire Now
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light p-0 mobNavbar">
+    <div class="mobNavbarA">
+      <div class="text-end p-3">
+        <img src="images/close-icon.svg" alt="close" class="closeMenu">
+      </div>
+      <div class="mobNavbarB">
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='0'>Why TSNI?</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='1'>Infrastructure</a></div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='2'>Academics</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='3'>Memories</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='4'>Beyond
+            Acadmics</a></div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='5'>Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <div class="d-flex justify-content-between align-items-center py-2 gap-4 container">
+      <a>
+        <img class="img-fluid" title="The Shanti Niketan School" src="images/logo.png"
+          alt="The Shanti Niketan School" />
+      </a>
+      <div class="text-end logo__right desktop">
+        <img class="img-fluid" src="images/cambridge.png" alt="" />
+      </div>
+    </div>
+  </div>
+
   <!-- Hero section start (Slider) -->
-  <section class="hero-section position-relative overflow">
+  <section class="hero-section position-relative overflow mb-5">
     <div class="bc-img01 position-relative">
       <div class="container">
         <div class="zIndex2 position-relative">
@@ -161,7 +282,8 @@
                                 <input type="hidden" id="sourceId" name="source" value="">
                                 <input type="hidden" name="orderid" value="855">
                                 <input type="hidden" name="sitename" value="MSSAdmission2024">
-                                <button id="btnSubmit" type="submit" class="btn btn_submit">Submit</button>
+                                <button id="btnSubmit" type="submit"
+                                  class="btn btn_submit mx-auto d-block">Submit</button>
                               </div>
                             </div>
                           </div>
@@ -177,15 +299,27 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Hero section end (Slider) -->
 
   <section class="position-relative" data-scroll-index='1'>
     <div class="container">
       <div class="recognised-section position-relative">
         <div class="widget-title text-center mx-auto zIndex2 position-relative w-75 mx-auto">
-          <h2 class="text-blue font-weight-700 text-uppercase mb-3 wow fadeInUp title-anim">About The Shanti Niketan School</h2>
-          <p class="wow fadeInUp" data-wow-delay="300ms">The global changes have made the world a borderless society. We are faced with challenges that have never been confronted by society at large. We understand the direction of the winds of change and have prepared our educational programmers with that in mind. It is a rare opportunity for the students to be able to go through such a rigorous training and prepare themselves for the world of tomorrow. The Shanti Niketan International School provides its students a conducive environment which is based on cooperative values but is designed to be equally competitive in nature. One of the charms of childhood is that concept of time is unlinked from that of adults. We have, them for a brief moment, and they have us for their entire childhood. We are delighted to have taken the stupendous challenge of nurturing your child, motivating and guiding them to be positive, passionate, focused, confident and holistic personalities. Hence by the time they step into adulthood, they are more than equipped to face the real world and take on the reigns of Indian citizenship with a global outlook.</p>
+          <h2 class="text-blue font-weight-700 text-uppercase mb-3 wow fadeInUp title-anim">About The Shanti Niketan
+            School</h2>
+          <p class="text-justify wow fadeInUp missionContent" data-wow-delay="300ms">The global changes have made the
+            world a borderless society. We are faced with challenges that have never been confronted by society at
+            large. We understand the direction of the winds of change and have prepared our educational programmers with
+            that in mind. It is a rare opportunity for the students to be able to go through such a rigorous training
+            and prepare themselves for the world of tomorrow. The Shanti Niketan International School provides its
+            students a conducive environment which is based on cooperative values but is designed to be equally
+            competitive in nature. One of the charms of childhood is that concept of time is unlinked from that of
+            adults. We have, them for a brief moment, and they have us for their entire childhood. We are delighted to
+            have taken the stupendous challenge of nurturing your child, motivating and guiding them to be positive,
+            passionate, focused, confident and holistic personalities. Hence by the time they step into adulthood, they
+            are more than equipped to face the real world and take on the reigns of Indian citizenship with a global
+            outlook.</p>
         </div>
       </div>
     </div>
@@ -364,7 +498,14 @@
               <div class="widget-title white mb-3">
                 <h3 class="text-blue text-uppercase font-weight-700 wow fadeInUp">Mission</h3>
               </div>
-              <p class="text-justify wow fadeInUp missionContent" data-wow-delay="300ms">The Shanti Niketan International School,provide its students a conducive environment which is based on cooperative values but is designed to be equally competitive in nature. We are delighted to have taken the stupendous challenge of nurturing your child, motivating and guiding them to be positive, passionate, focused, confident and holistic personalities. Hence by the time they step into adulthood, they are more than equipped to face the real world and take on the reigns of Indian citizenship with a global outlook We are providing an open opportunity for deserving young minds (YOUNG GENIUS IN THE FIELD OF SPORTS & ACADEMICS WILL GET SPECIAL SCHOLARSHIP)</p>
+              <p class="text-justify wow fadeInUp missionContent" data-wow-delay="300ms">The Shanti Niketan
+                International School,provide its students a conducive environment which is based on cooperative values
+                but is designed to be equally competitive in nature. We are delighted to have taken the stupendous
+                challenge of nurturing your child, motivating and guiding them to be positive, passionate, focused,
+                confident and holistic personalities. Hence by the time they step into adulthood, they are more than
+                equipped to face the real world and take on the reigns of Indian citizenship with a global outlook We
+                are providing an open opportunity for deserving young minds (YOUNG GENIUS IN THE FIELD OF SPORTS &
+                ACADEMICS WILL GET SPECIAL SCHOLARSHIP)</p>
             </div>
           </div>
         </div>
@@ -376,28 +517,13 @@
   <footer class="footer position-relative py-3 text-center text-dark">
     <div class="container">Copyright © The Shanti Niketan School. All Right Reserved</div>
   </footer>
-  <a href="#" id="back-top" title="Back To Top"></a>
-  <div class="sideNavi" id="sideNavi" style="display: none;">
-    <div class="sideNavi-flex">
-      <div class="sideNavi-item"><a class="text-uppercase downbg" href="#applyBox">Enquire Now</a></div>
-    </div>
-  </div>
+
   <!-- jQuery plugins -->
+  <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="css/carousel/owl.carousel.min.js"></script>
   <script src="js/wow.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/SplitText.min.js"></script>
-  <script src="js/gsap.min.js"></script>
-  <script src="js/scrollIt.min.js"></script>
   <script src="js/custom.js"></script>
-
-  <!-- validationEngine FORM START -->
-  <link rel="stylesheet" href="js/form/validationEngine.jquery.css">
-  <script src="js/form/jquery.validationEngine.js"></script>
-  <script src="js/form/jquery.validationEngine-en.js"></script>
-  <script src="js/form/script.js"></script>
-  <script src="js/form/state.js"></script>
 
 </body>
 
