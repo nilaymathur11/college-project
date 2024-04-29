@@ -17,33 +17,18 @@
   <link href="css/animate.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
-  <style>
-  .header_btn {
-    color: black;
-    font-size: 14px;
-    padding: .35rem .75rem;
-    font-weight: 500;
-    color: black;
-    background-color: white;
-    border: none;
-    text-align: center;
-    border-radius: .25rem;
-    text-transform: uppercase;
-   }
-   </style>
-
-  </head>
+</head>
 
 <body>
   <header id="header" class="header" data-scroll-index='0'>
     <div class="header-absolute zIndex2 w-100">
       <div class="header_top">
-        <div class="d-flex justify-content-between align-items-center py-2 container gap-4">
+        <div class="d-flex justify-content-between align-items-center py-2 container p-0 gap-4">
           <button class="header_btn d-md-none d-block openMenu">
-            <img src="images/menu-icon.svg" alt="menu">
+            <img src="images/menu.png" alt="menu">
           </button>
 
-<!-- Main Header -->
+          <!-- Main Header -->
           <nav class="navbar navbar-light p-0 d-md-block d-none">
             <div class="d-flex justify-content-center align-items-center container-fluid">
               <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='0'>Why TSNI?</a>
@@ -54,16 +39,15 @@
               <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='3'>Memories</a>
               </div>
               <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='4'>Beyond Acadmics</a>
-	      </div>
+              </div>
               <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='5'>Contact Us</a>
               </div>
             </div>
           </nav>
 
-<a href="index.php"><button class="header_btn">LOGIN</button></a>
+          <a href="page-login.html"><button class="header_btn">LOGIN</button></a>
 
-
-<!-- Social Media Links -->
+          <!-- Social Media Links -->
           <div class="d-flex justify-content-between justify-content-md-end align-items-center gap-4">
             <a target="_blank" href="#"><i class='fab fa-facebook' style='color: white'></i></a>
             <a target="_blank" href="#"><i class='fab fa-instagram' style='color: white'></i></a>
@@ -74,7 +58,7 @@
     </div>
   </header>
 
-<!-- Sidebar Enquire Form -->
+  <!-- Sidebar Enquire Form -->
   <div>
     <div class="floatForm">
       <div id="applyBox">
@@ -121,15 +105,15 @@
                     <div class="form-group">
                       <select class="form-select validate[required]"
                         data-errormessage-value-missing="* Course is required!" name="class" required>
-                      <option value="" selected="selected">Select Class* </option>
-                                  <option value="LKG">PlayGroup</option>
-				  <option value="Nursery">Nursery</option>
-                                  <option value="UKG">Prep</option>
-                                  <option value="Class I">Class I</option>
-                                  <option value="Class II">Class II</option>
-                                  <option value="Class III">Class III</option>
-                                  <option value="Class IV">Class IV</option>
-                                  </select>
+                        <option value="" selected="selected">Select Class* </option>
+                        <option value="LKG">PlayGroup</option>
+                        <option value="Nursery">Nursery</option>
+                        <option value="UKG">Prep</option>
+                        <option value="Class I">Class I</option>
+                        <option value="Class II">Class II</option>
+                        <option value="Class III">Class III</option>
+                        <option value="Class IV">Class IV</option>
+                      </select>
                     </div>
                   </div>
                   <div class="contact-fild-box mt-4">
@@ -177,23 +161,43 @@
     </div>
   </div>
 
+  <nav class="navbar navbar-light p-0 mobNavbar">
+    <div class="mobNavbarA">
+      <div class="text-end p-3">
+        <img src="images/close-icon.svg" alt="close" class="closeMenu">
+      </div>
+      <div class="mobNavbarB">
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='0'>Why TSNI?</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='1'>Infrastructure</a></div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='2'>Academics</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='3'>Memories</a>
+        </div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='4'>Beyond
+            Acadmics</a></div>
+        <div class="nav-item"><a href="#" class="nav-link" data-scroll-nav='5'>Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-
-<!-- School Logo -->
+  <!-- School Logo -->
   <div>
     <div class="d-flex justify-content-between align-items-center py-2 gap-4 container">
       <a>
-        <img class="img-fluid" title="The Shanti Niketan School" src="images/logo.png" title="The Shanti Niketan International School" alt="" >
+        <img class="img-fluid" title="The Shanti Niketan School" src="images/logo.png"
+          title="The Shanti Niketan International School" alt="">
       </a>
       <div class="text-end logo__right desktop">
-	<img class="img-fluid" src="images/cambridge.png" title="Cambridge International School" alt="">
+        <img class="img-fluid" src="images/cambridge.png" title="Cambridge International School" alt="">
       </div>
     </div>
   </div>
 
 
-<!-- School Presentation -->
-  <section class="hero-section position-relative overflow mb-5">
+  <!-- School Presentation -->
+  <section class="hero-section position-relative overflow">
     <div class="bc-img01 position-relative">
       <div class="container">
         <div class="zIndex2 position-relative">
@@ -203,7 +207,8 @@
               <div class="dsu-addmission">
                 <div class="content_bnr-flex">
                   <h1 class="font-weight-700 text-uppercase title-anim">HARDWORK <strong
-                      class="text-yellow">Today</strong> <br />SUCCESS <strong class="text-orange text-yellow">Tomorrow</strong>
+                      class="text-yellow">Today</strong> <br />SUCCESS <strong
+                      class="text-orange text-yellow">Tomorrow</strong>
                   </h1>
                   <div class="d-block">
                     <p class="text-white fs-4 font-weight-500 mt-4 title-anim">PlayGroup - IV<sup>th</sup></p>
@@ -213,7 +218,7 @@
               </div>
             </div>
 
-<!-- Enquire Form -->
+            <!-- Enquire Form -->
             <div class="col-lg-6 col-md-12 formsec_right">
               <div class="dsu-intro">
                 <div id="applyBox">
@@ -260,13 +265,13 @@
                                   data-errormessage-value-missing="* Course is required!" name="class" required>
                                   <option value="" selected="selected">Select Class* </option>
                                   <option value="LKG">PlayGroup</option>
-				  <option value="Nursery">Nursery</option>
+                                  <option value="Nursery">Nursery</option>
                                   <option value="UKG">Prep</option>
                                   <option value="Class I">Class I</option>
                                   <option value="Class II">Class II</option>
                                   <option value="Class III">Class III</option>
                                   <option value="Class IV">Class IV</option>
-                                  </select>
+                                </select>
                               </div>
                             </div>
                             <div class="contact-fild-box mt-4">
@@ -303,8 +308,19 @@
     <div class="container">
       <div class="recognised-section position-relative">
         <div class="widget-title text-center mx-auto zIndex2 position-relative w-75 mx-auto">
-          <h2 class="text-blue font-weight-700 text-uppercase mb-3 wow fadeInUp title-anim">About The Shanti Niketan School</h2>
-          <p class="wow fadeInUp" data-wow-delay="300ms">The global changes have made the world a borderless society. We are faced with challenges that have never been confronted by society at large. We understand the direction of the winds of change and have prepared our educational programmers with that in mind. It is a rare opportunity for the students to be able to go through such a rigorous training and prepare themselves for the world of tomorrow. The Shanti Niketan International School provides its students a conducive environment which is based on cooperative values but is designed to be equally competitive in nature. One of the charms of childhood is that concept of time is unlinked from that of adults. We have, them for a brief moment, and they have us for their entire childhood. We are delighted to have taken the stupendous challenge of nurturing your child, motivating and guiding them to be positive, passionate, focused, confident and holistic personalities. Hence by the time they step into adulthood, they are more than equipped to face the real world and take on the reigns of Indian citizenship with a global outlook.</p>
+          <h2 class="text-blue font-weight-700 text-uppercase mb-3 wow fadeInUp title-anim">About The Shanti Niketan
+            School</h2>
+          <p class="wow fadeInUp" data-wow-delay="300ms">The global changes have made the world a borderless society. We
+            are faced with challenges that have never been confronted by society at large. We understand the direction
+            of the winds of change and have prepared our educational programmers with that in mind. It is a rare
+            opportunity for the students to be able to go through such a rigorous training and prepare themselves for
+            the world of tomorrow. The Shanti Niketan International School provides its students a conducive environment
+            which is based on cooperative values but is designed to be equally competitive in nature. One of the charms
+            of childhood is that concept of time is unlinked from that of adults. We have, them for a brief moment, and
+            they have us for their entire childhood. We are delighted to have taken the stupendous challenge of
+            nurturing your child, motivating and guiding them to be positive, passionate, focused, confident and
+            holistic personalities. Hence by the time they step into adulthood, they are more than equipped to face the
+            real world and take on the reigns of Indian citizenship with a global outlook.</p>
         </div>
       </div>
     </div>
@@ -312,7 +328,7 @@
 
 
 
-<!-- Hero section end (Slider) -->
+  <!-- Hero section end (Slider) -->
 
   <section class="facilities__section position-relative pt-5" data-scroll-index='2'>
     <div class="container">
@@ -475,13 +491,14 @@
   </section>
 
 
-<!-- School's Mission And Visions -->		
- <section class="about__section position-relative py-5">
+  <!-- School's Mission And Visions -->
+  <section class="about__section position-relative py-5">
     <div class="container">
       <div class="about_relative">
         <div class="row align-items-center">
           <div class="col-lg-5 col-md-5 order-md-2 desktop wow fadeInUp" data-wow-delay="300ms">
-            <img class="img-fluid shadow wow zoomIn" src="images/shantiniketan1.jpg" title="The Shanti International Niketan School" alt="The Shanti International 		Niketan School" >
+            <img class="img-fluid shadow wow zoomIn" src="images/shantiniketan1.jpg"
+              title="The Shanti International Niketan School" alt="The Shanti International 		Niketan School">
           </div>
 
           <div class="col-lg-7 col-md-7 order-md-1 mt-3">
@@ -521,7 +538,7 @@
     </div>
   </section>
 
- 
+
 
 
   <!-- footer -->

@@ -99,7 +99,7 @@ ol.m {
 .mobNavbarA {
     width: 250px;
     height: 100vh;
-    background-color: #252525;
+    background-color: var(--bg-blue);
 }
 
 .mobNavbarB {
@@ -109,6 +109,8 @@ ol.m {
     gap: 24px;
     flex-direction: column;
     padding-top: 2rem;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .closeMenu,
@@ -119,14 +121,16 @@ ol.m {
 }
 
 .header_btn {
-    padding: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg-blue);
+    color: black;
+    font-size: 16px;
+    padding: .35rem .75rem;
+    font-weight: 500;
+    color: black;
+    background-color: white;
     border: none;
     text-align: center;
     border-radius: .25rem;
+    text-transform: uppercase;
 }
 
 .header_btn img {
